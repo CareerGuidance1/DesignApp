@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+}
+
+.Search-icon {
+    color: #888;
+}
+
+.container {
+    display: flex;
+    margin-top: 5px;
+}
+
+.side-nav {
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    height: calc(100vh - 20px); /* Adjust height to account for header */
+    position: fixed;
+    top: 110px;
+    left: 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    
+}
+
+.nav-item i {
+    margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+.nav-item p {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+.content {
+    margin-left: 400px; /* Adjust for side-nav width + padding */
+    padding: 50px;
+    flex: 2;
+    width: 700px;
+    margin-right: 300px;
+    
+}
+h3 {
+    padding-top: 50px;
+    margin-top: 0;
+    text-align: left; /* Center the heading horizontally */
+    padding-left: 70px;
+    font-size: 25px;
+}
+.content h3 {
+    margin-top: 0;
+}
+
+.info {
+    margin-bottom: 30px; /* Optional: Add margin to separate Account from General */
+}
+
+.name, .username, .password, .email {
+    display: flex;
+    align-items: right;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.name label, .username label, .password label, .email label {
+    width: 400px; /* Adjust width as needed */
+    margin-left: 20px; /* Space between label and input */
+    align-items: center;
+}
+
+.name input, .username input, .password input, .email input {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+    border: 1px solid rgb(100, 98, 94);
+    border-radius: 5px;
+}
+
+
+.options {
+    margin-top: 20px;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.option-item label {
+    margin-left: 10px; /* Space between checkbox and label */
+}
+.other-content {
+    margin-left: 300px; /* Adjust for side-nav width + padding */
+    padding: 50px;
+    flex: 1;
+}
+option{
+    padding-left: 40px;
+}
+.para{
+    font-weight: 700;
+    font-size: 20px;
+}
+#language-select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
